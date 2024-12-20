@@ -1,3 +1,5 @@
+# UNDER CONSTRUCTION #
+
 # lightning-tx-tutorial
 
 This repo contains a series of python jupyter-notebooks to explain how lightning transactions are created. The notebooks will start up an instance of bitcoind in regtest mode so that transactions can be validated and broadcasted on regtest. Each notebook has some questions and exercises to test your understanding.
