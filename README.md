@@ -13,7 +13,7 @@ This repo contains a series of python jupyter-notebooks to explain how lightning
 ## Chapters
 
 + Chapter 1: 'Funding Transactions'
-  - Segwit
+  - [Segwit](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%201%20-%20Funding%20Transactions/Segwit-Funding-Transaction.ipynb)
   - Taproot
 + Chapter 2: 'Commitment Transaction'
   - Simple Commitment Transaction
