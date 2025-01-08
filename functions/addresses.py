@@ -138,3 +138,31 @@ def pk_to_p2sh_p2wpkh(compressed, network):
     else:
         return "Enter the network: tesnet/regtest/mainnet"
     return encode_base58_checksum(prefix + rs_hash)
+
+# Define secp256k1 curve parameters
+curve = ecdsa.SECP256k1.curve
+G = ecdsa.SECP256k1.generator  # The generator point G
+n = ecdsa.SECP256k1.order  # Curve order
+p = curve.p()  # Field prime
+
+# Function to reconstruct a point from a compressed public key
+def decompress_point(compressed_key):
+    prefix = int(compressed_key[:2], 16)
+    x = int(compressed_key[2:], 16)
+
+    # Calculate y^2 = x^3 + 7 mod p
+    y_squared = (x**3 + 7) % p
+
+    # Calculate the square root of y^2 mod p (y coordinate)
+    y = pow(y_squared, (p + 1) // 4, p)
+
+    # Adjust y based on the parity (even or odd)
+    if (prefix == 0x03 and y % 2 == 0) or (prefix == 0x02 and y % 2 == 1):
+        y = p - y
+
+    # Return the decompressed point
+    return ecdsa.ellipticcurve.Point(curve, x, y, n)
+
+def compress_pubkey(point):
+    prefix = "02" if point.y() % 2 == 0 else "03"  # Even -> 0x02, Odd -> 0x03
+    return f"{prefix}{point.x():064x}"
