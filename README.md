@@ -46,6 +46,7 @@ To create a virtual environment and install all dependencies:
 python3 -m venv myenv
 source myenv/bin/activate
 pip3 install -r requirements.txt
+pip install bip-utils
 ```
 
 Finally, to launch the interactive notebook:
