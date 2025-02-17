@@ -14,8 +14,8 @@ This repo contains a series of python jupyter-notebooks to explain how lightning
 
 + Chapter 0: [Key Derivation](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%200%20-%20Key%20Derivation/The%20Lightning%20Node%20Keys.ipynb)
 + Chapter 1: [Funding Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%201%20-%20Funding%20Transactions/Funding-Transaction.ipynb)
-+ Chapter 2: [Commitment Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%202%20-%20Commitment%20Transactions/First%20Commitment%20Transactions.ipynb)
-+ Chapter 3: 'Closing Transactions'
++ Chapter 2: [Commitment Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%202%20-%20Commitment%20Transactions)
++ Chapter 3: [Closing Transaction]((https://github.com/MPins/lightning-tx-tutorial/blob/master/Closing%20Transaction
  
 ## Setup
 ### Python3
