@@ -12,10 +12,10 @@ This repo contains a series of python jupyter-notebooks to explain how lightning
 
 ## Chapter
 
-+ Chapter 0: [Key Derivation](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%200%20-%20Key%20Derivation/The%20Lightning%20Node%20Keys.ipynb)
-+ Chapter 1: [Funding Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%201%20-%20Funding%20Transactions/Funding-Transaction.ipynb)
++ Chapter 0: [Key Derivation](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%200%20-%20Key%20Derivation)
++ Chapter 1: [Funding Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%201%20-%20Funding%20Transaction)
 + Chapter 2: [Commitment Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%202%20-%20Commitment%20Transactions)
-+ Chapter 3: [Closing Transaction]((https://github.com/MPins/lightning-tx-tutorial/blob/master/Closing%20Transaction
++ Chapter 3: [Closing Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%203%20-%20Closing%20Transaction)
  
 ## Setup
 ### Python3
@@ -54,6 +54,4 @@ The notebooks in this repo use bitcoin core's `TestShell` from its test framewor
 ## Acknowledgements
 - A lot of the code and inspiration for this tutorial comes from the following places:
   - Darius Parvin's [bitcoin-tx-tutorial](https://github.com/chaincodelabs/bitcoin-tx-tutorial)
-  - Shlomi Zeltsinger's [segwit tutorial](https://github.com/zeltsi/segwit_tutorial/tree/master/transactions)
   - Jimmy Song's [Programming Bitcoin exercises](https://github.com/jimmysong/pb-exercises).
-  - Bitcoin Optech [Schnorr Taproot Workshop](https://bitcoinops.org/en/schorr-taproot-workshop/)
