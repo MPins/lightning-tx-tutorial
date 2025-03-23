@@ -13,7 +13,8 @@ This repo contains a series of python jupyter-notebooks to explain how lightning
 + Chapter 0: [Key Derivation](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%200%20-%20Key%20Derivation)
 + Chapter 1: [Funding Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%201%20-%20Funding%20Transaction)
 + Chapter 2: [Commitment Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%202%20-%20Commitment%20Transactions)
-+ Chapter 3: [Closing Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%203%20-%20Closing%20Transaction)
++ Chapter 3:[HTLC-Timeout and HTLC-Success Transactions](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%203%20-%20HTLC-Timeout%20and%20HTLC-Success%20Transactions)
++ Chapter 4: [Collaborative Closing Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%204%20-%20Collaborative%20Closing%20Transaction)
  
 ## Setup
 ### Python3
