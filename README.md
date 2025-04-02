@@ -15,6 +15,8 @@ This repo contains a series of python jupyter-notebooks to explain how lightning
 + Chapter 2: [Commitment Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%202%20-%20Commitment%20Transactions)
 + Chapter 3:[HTLC-Timeout and HTLC-Success Transactions](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%203%20-%20HTLC-Timeout%20and%20HTLC-Success%20Transactions)
 + Chapter 4: [Collaborative Closing Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%204%20-%20Collaborative%20Closing%20Transaction)
++ Chapter 5: [Unilateral Closing Transaction](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%205%20-%20Unilateral%20Closing%20Transaction)
++ Chapter 6: [Sweeper Subsystem](https://github.com/MPins/lightning-tx-tutorial/blob/master/Chapter%206%20-%20Sweeper%20Subsystem)
  
 ## Setup
 ### Python3
