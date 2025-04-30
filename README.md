@@ -50,7 +50,7 @@ Finally, to launch the interactive notebook:
 jupyter lab
 ```
 ### Bitcoin core
-The notebooks in this repo use bitcoin core's `TestShell` from its test framework. The `TestShell` is used to create a local test instance of a bitcoin node (and blockchain) against which we can test our manually created transactions. The notebooks in this repo have been tested with [bitcoin core v24.0.1](https://github.com/bitcoin/bitcoin/releases/tag/v28.0).
+The notebooks in this repo use bitcoin core's `TestShell` from its test framework. The `TestShell` is used to create a local test instance of a bitcoin node (and blockchain) against which we can test our manually created transactions. The notebooks in this repo have been tested with [bitcoin core v28.0](https://github.com/bitcoin/bitcoin/releases/tag/v28.0).
 
 ## Acknowledgements
 - A lot of the code and inspiration for this tutorial comes from the following places:
